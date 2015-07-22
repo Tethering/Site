@@ -84,7 +84,7 @@ dt, dd, dl { display: inline; margin: 0; vertical-align: baseline; }
 i.fa { font-size: 12px; }
 i.fa.fa-fix { position: relative; top: -1px; }
 
-body { color: #777677; font-family: "lexia", serif; font-size: 12px; line-height: 1.2em; font-weight: 300; position: relative; }
+body { color: #fff; font-family: "lexia", serif; font-size: 12px; line-height: 1.2em; font-weight: 300; position: relative; }
 body.lock { overflow: hidden; width: 100%; }
 
 hr { display: block; width: 100%; clear: both; border: 0; border-top: 3px solid #bfbfbf; margin: 20px 0; }
@@ -913,8 +913,13 @@ nav.main .sub-menu a { color: #262626; font-size: 12px; font-weight: 700; letter
 nav.main .sub-menu a:hover, .sub-menu.active nav.main .sub-menu a { color: #e97539; background-color: transparent; }
 nav.main .active a:after, nav.main a:hover:after { content: ""; position: absolute; left: 50%; margin-left: -10px; bottom: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #fff; }
 nav.main li li a { color: #000; }
-nav.utility-nav li { vertical-align: middle; margin-left: 15px; padding: 20px 0; }
-nav.utility-nav li:last-child i { font-size: 18px; vertical-align: middle; }
+/*nav.utility-nav li { vertical-align: middle; margin-left: 15px; padding: 5px 0; }
+nav.utility-nav li:last-child i { font-size: 18px; vertical-align: middle; }*/
+
+nav.utility-nav li:first-child { padding-top: 13px; }
+nav.utility-nav li:last-child { padding-bottom: 13px; }
+
+
 nav.utility-nav a, nav.utility-nav a:visited { padding: 0 15px 0 0; letter-spacing: 2px; font-weight: 500; }
 nav.utility-nav a i, nav.utility-nav a:visited i { font-size: 12px; vertical-align: middle; }
 nav.utility-nav a:hover, nav.utility-nav a:visited:hover { color: #e97539; font-weight: 500; }
@@ -1386,4 +1391,6 @@ table.spec-table td { border: 1px solid #f3f3f3; }
 .slick-vertical .slick-slide { display: block; height: auto; border: 1px solid transparent; }
 
 .featured-products .slick-slider { max-width: 94%; }
+
+
 
